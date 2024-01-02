@@ -20,7 +20,7 @@ export default defineConfig(() => {
         "@assets": `${path.resolve(__dirname, "./src/assets/")}`,
       },
     },
-    base: "/",
+    base: "/remove-sign-string/",
     define: {
       APP_VERSION: JSON.stringify(env.npm_package_version),
     },
