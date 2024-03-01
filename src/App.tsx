@@ -7,7 +7,7 @@ function App() {
 
   function removeSignAndCommas(text: string): string {
     // ใช้ Regular Expression เพื่อแยกตัวเลขและลบเครื่องหมาย
-    const result = text.replace(/[-]/g, "");
+    const result = text.replace(/[+]/g, "");
     return result;
   }
 
